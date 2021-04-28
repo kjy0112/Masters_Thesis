@@ -7,8 +7,17 @@ We build two CNN models, one simple CNN model as a baseline model and another CN
 All these models are trained on 2D ultrasound images and predict the images' organ site and anatomical plane.
 ## Requirements:
 Python version 3.7.10 and Pytorch version 1.8.1 with CUDA version of 11.2 are required for the codes used in this study.
-## Making labels:
+## Data preprocessing:
+*Text_Extration.ipynb
 
+*UPenn_data_toCSV.ipynb
 ## Training, validation, and testing:
+*UPenn_CNN.ipynb
 
+*UPenn_Bottleneck.ipynb
+
+*UPenn_Transfer_Learning_VGG.ipynb
+
+*UPenn_Transfer_Learning_Resnet.ipynb
 ## Results comparisons:
+*UPenn_Final_graphs.ipynb
