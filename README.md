@@ -4,7 +4,9 @@ This project provides a means to produce labels by extracting text information e
 ## Model Descriptions:
 We build two CNN models, one simple CNN model as a baseline model and another CNN model with residual learning method with bottleneck structures. Also, we use tranfer learning to use pre-trained VGG16 and RestNet18 models.
 
-All these models are trained on 2D ultrasound images and predict the images' organ site and anatomical plane.
+All these models are trained on 2D ultrasound images and predict the images' organ site and anatomical plane simultaneously.
+
+We created class activation heatmaps (CAM) to visualize the discriminative regions of the ultrasound images during the clsasification process.
 ## Requirements:
 Python version 3.7.10 and Pytorch version 1.8.1 with CUDA version of 11.2 are required for the codes used in this study.
 ## Data preprocessing:
