@@ -11,6 +11,8 @@ Python version 3.7.10 and Pytorch version 1.8.1 with CUDA version of 11.2 are re
 *Text_Extration.ipynb
 
 *UPenn_data_toCSV.ipynb
+
+*UPenn_data_toCSV.ipynb
 ## Training, validation, and testing:
 *UPenn_CNN.ipynb
 
@@ -21,3 +23,4 @@ Python version 3.7.10 and Pytorch version 1.8.1 with CUDA version of 11.2 are re
 *UPenn_Transfer_Learning_Resnet.ipynb
 ## Results comparisons:
 *UPenn_Final_graphs.ipynb
+*UPenn_ResNet18_CAM.ipynb
